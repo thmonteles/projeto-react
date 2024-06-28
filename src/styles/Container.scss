@@ -1,0 +1,59 @@
+.container-section {
+    height: 355px;
+    background-image: url('/img/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10%;
+    width: 600px;
+    padding: 0.3rem;
+}
+
+.text-h1 {
+    font-size: 48px;
+    text-align: start;
+    color: white;
+}
+
+.text-h2 {
+    margin-top: -4px;
+    font-size: 36px;
+    color: white;
+}
+
+.first-button {
+    outline: none;
+    border: none;
+    width: 200px;
+    border-radius: 4px;
+    padding: 1rem;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    background-color: #f71a63;
+}
+
+@media (max-width: 900px) {
+    .container-section{
+        display: flex;
+        justify-content: center;
+        background-color: aquamarine;
+    }
+    .text-h1{
+      font-size: 28px ;
+      margin-top: 50px;
+    }
+    .text-h2{
+        font-size: 20px;
+    }
+    .first-button{
+        margin-top: 15px;
+        width: 150px;
+    }
+}
